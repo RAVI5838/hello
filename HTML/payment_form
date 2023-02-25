@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    
+</head>
+<body>
+     <form action="">
+        <h1>ORDER DETAILS</h1>
+        <p>Required fields are followed by '*'</p>
+        
+        <p>Name : * <input type="text" name="name" required></p>
+    <!--<fieldset>
+        <legend>BOARD</legend>
+        <p>
+            CBSE <input type="radio" name="cbse" id="cbse">
+            ICSE <input type="radio" name="icse" id="icse">
+        </p>
+     </fieldset>-->
+     <p>SCHOOL: 
+      <select name="card_type" id="card_type" required>
+          <option value="">--SELECT SCHOOL--</option>
+          <option value="kv1">Kendriya Vidyalaya No.1</option>
+          <option value="kv2">Kendriya Vidyalaya No.2</option>
+          <option value="kvp">Kendiya Vidyalaya No.2</option>
+      </select>
+   </p>
+   <p>CLASS: 
+    <select name="card_type" id="card_type" required>
+        <option value="">--Select-Class--</option>
+        <option value="1">CLASS 1</option>
+        <option value="2">CLASS 2</option>
+        <option value="3">CLASS 3</option>
+        <option value="4">CLASS 4</option>
+        <option value="5">CLASS 5</option>
+        <option value="6">CLASS 6</option>
+        <option value="7">CLASS 7</option>
+        <option value="8">CLASS 8</option>
+        <option value="9">CLASS 9</option>
+        <option value="10">CLASS 10</option>
+        <option value="11">CLASS 11</option>
+        <option value="12">CLASS 12</option>
+        
+    </select>
+ </p>
+ <p>ORDER :
+   TEXTBOOK <input type="checkbox" name="cbse" id="cbse">
+   NOTEBOOK <input type="checkbox" name="icse" id="icse">
+   COMBO <input type="checkbox" name="icse" id="icse">
+   UNIFORM <input type="checkbox" name="icse" id="icse">
+</p>
+ <p>Email ID: <input type="email" name="email" id="email" required></p>
+     <p>Address : <textarea name="address" id="address" cols="100" rows="2"></textarea></p>
+     
+     <p>Pincode : <input type="number" name="pincode" id="pincode"></p>
+     
+     
+
+
+     <p>
+        Card Number : <input type="number" name="card_number" id="card_number" required>
+     </p>
+     <p>
+        Expiration Date: <input type="date" name="exp_date" id="exp_date">
+     </p>
+     <p>
+        CVV: <input type="password" name="cvv" id="cvv">
+     </p>
+     <p> <input type="submit" value="Pay Now"></p>
+
+     </form>
+</body>
+</html>
