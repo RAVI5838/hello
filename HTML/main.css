@@ -1,0 +1,78 @@
+body{
+    font-family: sans-serif;
+    border: 3px solid steelblue;
+    width: 900px;
+    box-shadow: 0 10px 15px 10px;
+    margin-left: 300px;
+    
+}
+section a{
+    color: maroon;
+}
+section{
+    
+    padding-left:  270px;
+    margin: 1px;
+}
+h1, h2, h3, p{
+    padding: 4px;
+    margin: 4px;
+}
+header h2{
+    color: steelblue;
+    padding-top: 10px;
+    font-size: 45px;
+    padding-bottom: 10px;  
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 45px;
+}
+header h3{
+    
+    padding-top: 10px;
+    font-size: 150%;
+    text-indent: 45px;
+      
+}
+header{
+    border: 3px solid steelblue;
+    background-image:linear-gradient(white,steelblue);
+}
+section h1{
+    padding-top: 30px;
+    text-align: left;
+}
+:hover h3{
+    color: steelblue;
+}
+img{
+    float: left;
+}
+footer{
+    clear:both;
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    padding: 10px;
+}
+li{
+    padding: 3px;
+    margin: 3px;
+}
+aside{
+    color: maroon;
+     width: 245px;
+     float: left;
+     padding: 25px 0 0 30px;
+     position: absolute;
+     margin-top: -680px;
+     margin-left: -25px;
+}
+nav{
+    background-color: steelblue;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    margin-top: -17px;
+   
+}
