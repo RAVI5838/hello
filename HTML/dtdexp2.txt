@@ -1,0 +1,19 @@
+Attribute
+period of Dinosaur is optional
+ Elements
+Height, Length, Weight are optional
+ Attributes
+of the above elements(Height, Length, Weight) are mandatory   
+
+<!DOCTYPE DinoList[
+    <!ELEMENT Dinosaur(Name,Group,Range,PhysicalAttr)>
+    <!ATTLIST Dinosaur period CDATA #IMPLIED>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Group (#PCDATA)>
+    <!ELEMENT Range (Region+)>
+    <!ELEMENT PhysicalAttr(Length,Weight,Height)>
+    <!ATTLIST unit CDATA #REQUIRED>
+    <!ELEMENT Length (#PCDATA)
+    <!ELEMENT Weight (#PCDATA)>
+    <!ELEMENT Height (#PCDATA)>
+]>
